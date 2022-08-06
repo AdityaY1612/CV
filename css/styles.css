@@ -1,0 +1,246 @@
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.dynamic{
+  overflow: hidden;
+    border-right: .15em solid #66BFBF;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:
+    typing 2s steps(40,end),
+    blink-caret .75s step-end infinite;
+    width: 24%;
+
+}
+
+/* .border{
+  border-right: .15em solid #66BFBF;
+  animation:
+  blink-caret .75s step-end infinite;
+} */
+
+@keyframes typing {
+    from{width: 0}
+    to{width: 25%}
+
+}
+
+@keyframes blink-caret {
+  0% { border-color: transparent }
+  50% { border-color: #66BFBF; }
+  100%{ border-color: transparent}
+}
+
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin: 100px 0;
+  margin-top: 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  margin: 50px auto 50px auto;
+  background-color: #66BFBF;
+  padding: 50px;
+  position: relative;
+  top: 50px;
+}
+
+.red {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+
+.blue {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  left: 100px;
+  top: 100px;
+}
+
+.yellow {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 200px;
+  ;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.mountain {
+  height: 40%;
+}
+
+a {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+.imgt{
+  display: inline-block;
+  width: 8%;
+}
+
+.foot-img{
+  width: 5%;
+}
+
+.cimg {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.jimg {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  border: dotted;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  width: 5%;
+  border-top-width: 10px;
+  border-color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+.contact-h2 {
+  margin: 50px auto 50px auto;
+}
+
+.contact-h3 {
+  margin: 50px auto 50px auto;
+}
+
+.contact-p {
+  margin: 40px auto 60px auto;
+  width: 30%;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto 50px auto;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link {
+  margin-left: 25px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.copyright {
+  margin: 50px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.gif {
+  height: 25%;
+  width: 25%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.profilepic {
+  height: 10%;
+  width: 10%;
+}
